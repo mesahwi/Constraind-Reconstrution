@@ -1,4 +1,4 @@
-My implementation of the Gatys style transfer code.
+My pytorch implementation of the Gatys style transfer code.
 Losses are computed for mid-layer results, so I decided to create copies of the model, until the mid-layers.
 The code takes truncated copies of vgg19 and computes loss and gradient per copy.
 
